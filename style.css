@@ -1,0 +1,80 @@
+body{
+    background-color: whitesmoke;
+    
+}
+.navbar{
+  background: rgb(183, 185, 236);
+  text-align: center;      
+  color: white
+  
+}
+.hero{
+    
+    text-align: center;
+}
+
+.about{
+text-align: center;
+}
+.events{
+    text-align: center;
+}
+.events ul{
+    display: inline-block;
+    text-align:left;
+    list-style-position: inside;
+}
+.registration{
+    text-align: center;
+    padding: 20px;
+}
+.registration label{
+    display: inline-block;
+    margin-right: 60px;
+    text-align: right;
+    width: 20px;
+}
+.registration input{
+    width: 220px;
+    padding: 8px;
+}
+.registration button{
+    margin-top: 15px;
+}
+.contact{
+    text-align: center;
+background-color: rgb(183, 185, 236);
+}
+.footer{
+ text-align: center;
+}
+button{
+    padding: 10px 10px;
+    width: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid black;
+    height: 50px;
+    background: rgb(78, 165, 90);
+    transition-duration: 0.4s;
+}
+
+
+input{
+padding: 10px;
+}
+div {
+  padding: 0px 20px 30px 40px;
+  
+}
+p{
+  margin-bottom: 20px; 
+  
+}
+img {
+  width: 100%;
+  max-width: 500px;
+}

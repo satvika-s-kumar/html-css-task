@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <style>
+    
+    button {
+      background-color: #3498db;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+
+    
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #1d6fa5;
+    }
+         
+
+  </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="navbar">
+        <h1>Event Registration Form</h1>
+        <a href="#hero" >Home</a>
+        <a href="#events" >Events</a>
+        <a href="#registration" >Register</a>
+        <a href="#contact" >Contact</a>
+    </div>
+    <div class="hero" id="hero">
+        <h1 style="text-align: center;">ENVI TECH FEST 2026</h1>
+        <p style="text-align: center;">Platform for learning, innovation, and collaboration, featuring technical competitions, workshops, and hands-on experiences</p>
+        <img src="tech.webp" width="600" class=".center-img">
+        <form action="Register" method="post"></form>
+        <button type=Register>Register now</button>
+    <div class="about">
+        <h2>Technology</h2>
+        <p>A vibrant platform where cutting-edge technology meets creativity and innovation. It showcases advancements in fields like robotics, artificial intelligence, renewable energy, and digital solutions through exhibitions, competitions, and live demonstrations. </p>
+        <h2>Innovation</h2>
+        <p>A platform for creative problem-solving and futuristic thinking. Through competitions like the Innovation Challenge, workshops, and exhibitions, it encourages participants to design novel solutions for real-world issues.</p>
+        <h2>Competetion</h2>
+        <p>Heart of the event, These events not only test technical skills but also encourage teamwork, problem-solving, and out-of-the-box thinking, making them both thrilling for participants and captivating for audiences.</p>
+        <h2>Workshop</h2>
+        <p>An interactive, hands-on learning session where participants explore specific technologies, tools, or skills under expert guidance.</p>
+    </div>
+    <div class="events" id="events">
+        <h1 style="color: rgb(37, 11, 133);">EVENTS</h1>
+       <ul>
+        <li>Hackathon</li>
+        <li>Coding Contest</li>
+        <li>UI/UX Challenge</li>
+        <li>Paper Presentation</li>
+       </ul> 
+    </div>
+    <div class="registration" id="registration">
+        <form action="submit">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="dept">Department:</label>
+            <input type="text" id="dept" name="dept" required><br><br>
+            <label for="phn">Phone:</label>
+            <input type="number" id="phn" name="phn" required><br><br>
+            <form action="Submit" method="post"></form>
+            <button type="submit">SUBMIT</button><br><br>
+        </form>
+    </div>
+    <div class="contact" id="contact">
+        <br><br>
+        <h3>COLLEGE OF ENGINEERING</h3>
+        <h4>email@gmail.com</h4>
+        <h3>Phone:9087654321</h3>
+    </div>
+    <div class="footer">
+        <h5>© 2026 ENVI Tech Fest</h5>
+    </div>
+</body>
+</html>
